@@ -1,0 +1,139 @@
+body {
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+   
+}
+p.categorie {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+    
+}
+
+div.Contenu {
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+p.description {
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+}
+
+div.description {
+    text-align: center;
+}
+
+div.categorie{
+    margin-bottom: -40px;
+}
+div.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+.y{
+    text-align: center;
+
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+.tableau-info {
+    position: absolute;
+    bottom: 0;          /* collé en bas */
+    width: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6); /* fond sombre */
+    color: black;
+    border-collapse: collapse;
+    background-color: #6C829DC0;
+}
+
+
+.tableau-info th,.tableau-info td {
+    padding: 8px;
+    text-align: center;
+}
+.colonne1{
+    flex: 1;
+}
+.colonne2{
+    flex: 1;
+}
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829DC0;
+    padding-bottom: 5px;
+}
+div.colonne{
+    margin-top: 20px;
+
+}
+.no p{
+    border: 5px solid lightgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 8px 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.preparation .numero{
+    background-color: #6C829DC0;
+    color: white;
+    width: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+}
+.preparation .preparation_etape{
+     font-size: 14px;
+     padding-left: 10px;
+     padding-bottom: 20px;
+}
+.colonne-container{
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+}
+*{
+    overflow: auto;
+}
