@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    color: white;
+    background: radial-gradient(circle at top, #1f2937, #0f172a);
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(0,255,200,0.08), transparent 60%);
+    animation: move 10s infinite linear;
+    pointer-events: none;
+}
+
+
+@keyframes move {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+        /* BANNIÈRE */
+.container{
+    background: url("OIP (4).webp") center/cover;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.container h1{
+    margin: 10px;
+}
+
+
+.container p{
+    margin: 10px;
+}
+
+.btn-offre{
+    background: orange;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+        /* TITRE */
+.Alignment{
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+        /* PRODUITS */
+.align{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.affichage{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+        /* IMAGE PRODUIT */
+.product-img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    background: transparent;
+}
+
+
+        /* PRIX */
+.price{
+    color: orange;
+    font-weight: bold;
+}
+
+
+        /* BOUTON PANIER */
+.btn{
+    background: green;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+        }
+
+
+.btn:hover{
+    background: darkgreen;
+}
+
+
+        /* BOUTON VOIR PANIER */
+.btn-panier{
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.btn-panier:hover{
+    background: darkblue;
+}
